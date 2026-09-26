@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Paris Chic Homepage</title>
+<meta name="description" content="Paris Chic: independent Parisian eyewear, fitted in Dubai.">
+<link rel="icon" href="assets/images/logo-paris-chic.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Poppins:wght@300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="page" id="page">
+  <!-- Announcement -->
+  <div class="announce">
+    <div class="wrap">
+      <p class="msg d-only">Free delivery over AED 500&nbsp;&nbsp;·&nbsp;&nbsp;Pick up at our Dubai boutique&nbsp;&nbsp;·&nbsp;&nbsp;Book a fitting</p>
+      <p class="m-only">Free delivery over AED 500&nbsp;&nbsp;·&nbsp;&nbsp;Pick up at our Dubai boutique</p>
+      <div class="loc d-only">
+        <button type="button">UAE 🇦🇪 / KSA 🇸🇦</button>
+        <span class="sep" aria-hidden="true"></span>
+        <button type="button" dir="auto">EN / عربي</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="wrap nav">
+      <button class="burger m-only" id="burger" aria-label="Open menu" aria-controls="drawer" aria-expanded="false"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h16M4 16h11"/></svg></button>
+      <nav class="nav-left d-only" aria-label="Main">
+        <a href="#" class="active" id="sunLink" aria-haspopup="true" aria-expanded="false" aria-controls="mega">Sunglasses</a>
+        <a href="#">Optical</a>
+        <a href="#">Brands</a>
+        <a href="#boutique">Boutique &amp; Fitting</a>
+        <a href="#about" data-route="about">About</a>
+        <a href="#contact" data-route="contact">Contact</a>
+      </nav>
+      <a href="#home" class="logo d-only" aria-label="Paris Chic home"><img src="assets/images/logo-paris-chic.png" alt="Paris Chic"></a>
+      <a href="#home" class="m-logo m-only" aria-label="Paris Chic home"><img src="assets/icons/landmark.svg" alt="">Paris Chic</a>
+      <div class="nav-right">
+        <button type="button" class="hbtn" aria-label="Search"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></button>
+        <button type="button" class="hbtn d-only" aria-label="Account"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8.5" r="3.75"/><path d="M4.75 20c.9-3.6 3.9-5.75 7.25-5.75s6.35 2.15 7.25 5.75"/></svg></button>
+        <button type="button" class="hbtn d-only wl" aria-label="Wishlist"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7.25-4.35-7.25-9.6A4.15 4.15 0 0 1 12 7.75a4.15 4.15 0 0 1 7.25 2.65C19.25 15.65 12 20 12 20Z"/></svg><span class="hbadge" id="wlCount" hidden>0</span></button>
+        <button type="button" class="hbtn cart" aria-label="Bag, 2 items"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.75 8.5h12.5l-.95 10.6a1.6 1.6 0 0 1-1.6 1.45H8.3a1.6 1.6 0 0 1-1.6-1.45Z"/><path d="M9 10.5V7.25a3 3 0 0 1 6 0v3.25"/></svg><span class="hbadge count">2</span></button>
+      </div>
+    </div>
+    <!-- Mega menu -->
+    <div class="mega d-only" id="mega" role="region" aria-label="Sunglasses menu">
+      <div class="wrap">
+        <div class="mega-col"><p class="eyebrow">Shop By</p><ul><li><a href="#">Women</a></li><li><a href="#">Men</a></li><li><a href="#">Unisex</a></li></ul></div>
+        <div class="mega-col"><p class="eyebrow">Brands</p><ul><li><a href="#">IZIPIZI</a></li><li><a href="#">Anne et Valentin</a></li><li><a href="#">Lesca</a></li><li><a href="#">Le Petit Lunetier</a></li><li><a href="#">BALI Paris</a></li></ul></div>
+        <div class="mega-col"><p class="eyebrow">Style</p><ul><li><a href="#">Round</a></li><li><a href="#">Cat-eye</a></li><li><a href="#">Aviator</a></li><li><a href="#">Rectangle</a></li></ul></div>
+        <a href="#" class="mega-ed"><img src="assets/images/hero-sunglasses.jpg" alt="Woman in dark sunglasses on a Paris street"><span>New Season</span></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Offers ticker -->
+  <div class="ticker" aria-label="Current offers">
+    <div class="ticker-track">
+      <div class="ticker-group"><span class="ticker-item"><span class="tag">Offer</span> 2nd frame <b>50% off</b> on selected styles</span><span class="ticker-item">Free delivery over <b>AED 500</b> across UAE &amp; KSA</span><span class="ticker-item">Split payment in 4 with <b>Tabby &amp; Tamara</b></span><span class="ticker-item">Free Dubai pickup, <b>ready in 2 hours</b></span><span class="ticker-item"><span class="tag">-20%</span> Anne et Valentin Alma, now <b>AED 800</b></span><span class="ticker-item">New season arrivals from <b>Paris</b></span><span class="ticker-item"><b>1-year warranty</b> on every frame</span></div>
+      <div class="ticker-group" aria-hidden="true"><span class="ticker-item"><span class="tag">Offer</span> 2nd frame <b>50% off</b> on selected styles</span><span class="ticker-item">Free delivery over <b>AED 500</b> across UAE &amp; KSA</span><span class="ticker-item">Split payment in 4 with <b>Tabby &amp; Tamara</b></span><span class="ticker-item">Free Dubai pickup, <b>ready in 2 hours</b></span><span class="ticker-item"><span class="tag">-20%</span> Anne et Valentin Alma, now <b>AED 800</b></span><span class="ticker-item">New season arrivals from <b>Paris</b></span><span class="ticker-item"><b>1-year warranty</b> on every frame</span></div>
+    </div>
+  </div>
+
+  <main class="view" id="view-home">
+  <!-- Hero slider -->
+  <section class="hero on-dark" id="hero" aria-roledescription="carousel" aria-label="Featured">
+    <div class="slide s1 is-active" data-dark="1" aria-roledescription="slide" aria-label="1 of 3">
+      <img class="slide-bg" src="assets/images/hero-new-season.jpg" alt="Paris Chic boutique display of French frames">
+      <div class="slide-ov"></div>
+      <div class="slide-inner"><div class="hero-copy">
+        <p class="hero-eyebrow">New Season · Paris</p>
+        <h1>French frames,<br class="d-only"> chosen in Paris</h1>
+        <p class="hero-sub">Independent Parisian maisons, fitted in Dubai.</p>
+        <a href="#best-sellers" class="btn btn--light">Shop the collection</a>
+      </div></div>
+    </div>
+    <div class="slide s2" data-dark="1" aria-roledescription="slide" aria-label="2 of 3" aria-hidden="true">
+      <img class="slide-bg" src="assets/images/hero-sunglasses.jpg" alt="Woman in dark sunglasses on a Paris street">
+      <div class="slide-ov"></div>
+      <div class="slide-inner"><div class="hero-copy">
+        <p class="hero-eyebrow">Sunglasses</p>
+        <h2>Made for<br class="d-only"> the Gulf sun</h2>
+        <p class="hero-sub">UV protection meets Parisian style.</p>
+        <a href="#best-sellers" class="btn btn--outline-light" tabindex="-1">Shop Sunglasses</a>
+      </div></div>
+    </div>
+    <div class="slide s3" data-dark="1" aria-roledescription="slide" aria-label="3 of 3" aria-hidden="true">
+      <img class="slide-bg" src="assets/images/hero-boutique.jpg" alt="Paris Chic boutique interior at Dubai Festival City Mall">
+      <div class="slide-ov"></div>
+      <div class="slide-inner"><div class="hero-copy">
+        <p class="hero-eyebrow">Dubai Festival City Mall</p>
+        <h2>Try before<br class="d-only"> you buy</h2>
+        <p class="hero-sub">Visit our boutique for a personalised fitting.</p>
+        <a href="#boutique" class="btn btn--light" tabindex="-1">Book a fitting</a>
+      </div></div>
+    </div>
+    <button class="hnav prev" type="button" aria-label="Previous slide"><img src="assets/icons/chevron-left.svg" alt=""></button>
+    <button class="hnav next" type="button" aria-label="Next slide"><img src="assets/icons/chevron-right.svg" alt=""></button>
+    <div class="dots" role="tablist" aria-label="Choose slide">
+      <button class="dot is-active" type="button" role="tab" aria-selected="true" aria-label="Slide 1"></button>
+      <button class="dot" type="button" role="tab" aria-selected="false" aria-label="Slide 2"></button>
+      <button class="dot" type="button" role="tab" aria-selected="false" aria-label="Slide 3"></button>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="cats" aria-label="Shop by category">
+    <div class="wrap">
+      <a href="#" class="cat"><img src="assets/images/category-sunglasses.jpg" alt=""><span>Sunglasses</span></a>
+      <a href="#" class="cat"><img src="assets/images/category-optical.jpg" alt=""><span>Optical</span></a>
+      <a href="#" class="cat"><img src="assets/images/category-women.jpg" alt=""><span>Women</span></a>
+      <a href="#" class="cat"><img src="assets/images/category-men.jpg" alt=""><span>Men</span></a>
+    </div>
+  </section>
+
+  <!-- Best sellers -->
+  <section class="products" id="best-sellers">
+    <div class="wrap">
+      <div class="sec-title"><p class="kicker m-only">Handpicked Favorites</p><div class="row"><h2>Best Sellers</h2></div></div>
+      <div class="grid track">
+        <article class="card" data-name="LESCA 711 XL - Noir"><div class="card-media"><img class="ph ph-main" src="assets/images/products/lesca-711-xl-noir.jpg" alt="LESCA 711 XL - Noir" loading="lazy"><span class="badge ">Bestseller</span><button type="button" class="pill-btn wish" aria-pressed="false" aria-label="Add to wishlist"><img src="assets/icons/heart-off.svg" alt=""><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" fill="#b3262e" stroke="#b3262e" stroke-width="1.5" stroke-linejoin="round"/></svg></button><a href="#try-on" class="pill-btn tryon"><img src="assets/icons/camera.svg" alt="">Try it on</a><button type="button" class="pill-btn qadd" aria-label="Quick add to bag">+</button></div><div class="card-body"><p class="c-brand">LESCA</p><p class="c-name">711 XL - Noir</p><p class="c-price">AED 1,250</p><div class="c-colors"><span class="sw sel"><img src="assets/swatches/swatch-00.svg" alt=""></span><span class="sw"><img src="assets/swatches/swatch-01.svg" alt=""></span><span class="sw"><img src="assets/swatches/swatch-02.svg" alt=""></span><a href="#">3 colours</a></div></div></article>
+<article class="card has-model" data-name="IZIPIZI Sun #D - Tortoise"><div class="card-media"><img class="ph ph-main" src="assets/images/products/izipizi-sun-d-tortoise.jpg" alt="IZIPIZI Sun #D - Tortoise" loading="lazy"><img class="ph ph-model" src="assets/images/products/izipizi-sun-d-tortoise-model.jpg" alt="Model wearing IZIPIZI Sun #D - Tortoise" loading="lazy"><button type="button" class="pill-btn wish" aria-pressed="false" aria-label="Add to wishlist"><img src="assets/icons/heart-off.svg" alt=""><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" fill="#b3262e" stroke="#b3262e" stroke-width="1.5" stroke-linejoin="round"/></svg></button><a href="#try-on" class="pill-btn tryon"><img src="assets/icons/camera.svg" alt="">Try it on</a><button type="button" class="pill-btn qadd" aria-label="Quick add to bag">+</button></div><div class="card-body"><p class="c-brand">IZIPIZI</p><p class="c-name">Sun #D - Tortoise</p><p class="c-price">AED 490</p><div class="c-colors"><span class="sw sel"><img src="assets/swatches/swatch-03.svg" alt=""></span><span class="sw"><img src="assets/swatches/swatch-04.svg" alt=""></span><span class="sw"><img src="assets/swatches/swatch-05.svg" alt=""></span><a href="#">3 colours</a></div></div></article>
+<article class="card" data-name="Anne et Valentin Alma 20A41"><div class="card-media"><img class="ph ph-main" src="assets/images/products/anne-et-valentin-alma-20a41.jpg" alt="Anne et Valentin Alma 20A41" loading="lazy"><span class="badge red">2nd frame 50% off</span><button type="button" class="pill-btn wish" aria-pressed="false" aria-label="Add to wishlist"><img src="assets/icons/heart-off.svg" alt=""><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" fill="#b3262e" stroke="#b3262e" stroke-width="1.5" stroke-linejoin="round"/></svg></button><a href="#try-on" class="pill-btn tryon"><img src="assets/icons/camera.svg" alt="">Try it on</a><button type="button" class="pill-btn qadd" aria-label="Quick add to bag">+</button></div><div class="card-body"><p class="c-brand">Anne et Valentin</p><p class="c-name">Alma 20A41</p><p class="c-price"><s>AED 1,000</s><span class="sale">AED 800</span><span class="off">-20%</span></p><div class="c-colors"><span class="sw sel"><img src="assets/swatches/swatch-06.svg" alt=""></span><span class="sw"><img src="assets/swatches/swatch-07.svg" alt=""></span><a href="#">2 colours</a></div></div></article>
+<article class="card" data-name="Le Petit Lunetier Victoire - Cristal"><div class="card-media"><img class="ph ph-main" src="assets/images/products/le-petit-lunetier-victoire-cristal.jpg" alt="Le Petit Lunetier Victoire - Cristal" loading="lazy"><span class="badge soft">New</span><button type="button" class="pill-btn wish" aria-pressed="false" aria-label="Add to wishlist"><img src="assets/icons/heart-off.svg" alt=""><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" fill="#b3262e" stroke="#b3262e" stroke-width="1.5" stroke-linejoin="round"/></svg></button><a href="#try-on" class="pill-btn tryon"><img src="assets/icons/camera.svg" alt="">Try it on</a><button type="button" class="pill-btn qadd" aria-label="Quick add to bag">+</button></div><div class="card-body"><p class="c-brand">Le Petit Lunetier</p><p class="c-name">Victoire - Cristal</p><p class="c-price">AED 650</p><div class="c-colors"><span class="sw sel"><img src="assets/swatches/swatch-08.svg" alt=""></span><span class="sw"><img src="assets/swatches/swatch-09.svg" alt=""></span><span class="sw"><img src="assets/swatches/swatch-10.svg" alt=""></span><a href="#">3 colours</a></div></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- New arrivals -->
+  <section class="products" id="new-arrivals">
+    <div class="wrap">
+      <div class="sec-title"><p class="kicker m-only">Just Landed</p><div class="row"><h2>New Arrivals</h2></div></div>
+      <div class="grid">
+        <article class="card" data-name="BALI Paris Riviera - Honey"><div class="card-media"><img class="ph ph-main" src="assets/images/products/bali-paris-riviera-honey.jpg" alt="BALI Paris Riviera - Honey" loading="lazy"><button type="button" class="pill-btn wish" aria-pressed="false" aria-label="Add to wishlist"><img src="assets/icons/heart-off.svg" alt=""><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" fill="#b3262e" stroke="#b3262e" stroke-width="1.5" stroke-linejoin="round"/></svg></button><a href="#try-on" class="pill-btn tryon"><img src="assets/icons/camera.svg" alt="">Try it on</a><button type="button" class="pill-btn qadd" aria-label="Quick add to bag">+</button></div><div class="card-body"><p class="c-brand">BALI Paris</p><p class="c-name">Riviera - Honey</p><p class="c-price">AED 580</p><div class="c-colors"><span class="sw sel"><img src="assets/swatches/swatch-11.svg" alt=""></span><span class="sw"><img src="assets/swatches/swatch-04.svg" alt=""></span><span class="sw"><img src="assets/swatches/swatch-12.svg" alt=""></span><a href="#">3 colours</a></div></div></article>
+<article class="card" data-name="Lesca Pica - Cognac"><div class="card-media"><img class="ph ph-main" src="assets/images/products/lesca-pica-cognac.jpg" alt="Lesca Pica - Cognac" loading="lazy"><span class="badge soft">New</span><button type="button" class="pill-btn wish" aria-pressed="false" aria-label="Add to wishlist"><img src="assets/icons/heart-off.svg" alt=""><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" fill="#b3262e" stroke="#b3262e" stroke-width="1.5" stroke-linejoin="round"/></svg></button><a href="#try-on" class="pill-btn tryon"><img src="assets/icons/camera.svg" alt="">Try it on</a><button type="button" class="pill-btn qadd" aria-label="Quick add to bag">+</button></div><div class="card-body"><p class="c-brand">Lesca</p><p class="c-name">Pica - Cognac</p><p class="c-price">AED 1,450</p><div class="c-colors"><span class="sw sel"><img src="assets/swatches/swatch-13.svg" alt=""></span><span class="sw"><img src="assets/swatches/swatch-04.svg" alt=""></span><a href="#">2 colours</a></div></div></article>
+<article class="card" data-name="IZIPIZI Reading #E - Navy"><div class="card-media"><img class="ph ph-main" src="assets/images/products/izipizi-reading-e-navy.jpg" alt="IZIPIZI Reading #E - Navy" loading="lazy"><button type="button" class="pill-btn wish" aria-pressed="false" aria-label="Add to wishlist"><img src="assets/icons/heart-off.svg" alt=""><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" fill="#b3262e" stroke="#b3262e" stroke-width="1.5" stroke-linejoin="round"/></svg></button><a href="#try-on" class="pill-btn tryon"><img src="assets/icons/camera.svg" alt="">Try it on</a><button type="button" class="pill-btn qadd" aria-label="Quick add to bag">+</button></div><div class="card-body"><p class="c-brand">IZIPIZI</p><p class="c-name">Reading #E - Navy</p><p class="c-price">AED 450</p><div class="c-colors"><span class="sw sel"><img src="assets/swatches/swatch-14.svg" alt=""></span><span class="sw"><img src="assets/swatches/swatch-15.svg" alt=""></span><span class="sw"><img src="assets/swatches/swatch-05.svg" alt=""></span><a href="#">3 colours</a></div></div></article>
+<article class="card" data-name="Anne et Valentin Ayo 25A27"><div class="card-media"><img class="ph ph-main" src="assets/images/products/anne-et-valentin-ayo-25a27.jpg" alt="Anne et Valentin Ayo 25A27" loading="lazy"><button type="button" class="pill-btn wish" aria-pressed="false" aria-label="Add to wishlist"><img src="assets/icons/heart-off.svg" alt=""><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" fill="#b3262e" stroke="#b3262e" stroke-width="1.5" stroke-linejoin="round"/></svg></button><a href="#try-on" class="pill-btn tryon"><img src="assets/icons/camera.svg" alt="">Try it on</a><button type="button" class="pill-btn qadd" aria-label="Quick add to bag">+</button></div><div class="card-body"><p class="c-brand">Anne et Valentin</p><p class="c-name">Ayo 25A27</p><p class="c-price">AED 800</p><div class="c-colors"><span class="sw sel"><img src="assets/swatches/swatch-16.svg" alt=""></span><span class="sw"><img src="assets/swatches/swatch-17.svg" alt=""></span><span class="sw"><img src="assets/swatches/swatch-18.svg" alt=""></span><a href="#">3 colours</a></div></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Edit -->
+  <section class="split">
+    <div class="wrap">
+      <img class="split-img" src="assets/images/paris-chic-edit.jpg" alt="Founder holding a curated pair of frames">
+      <div class="split-copy">
+        <p class="eyebrow">Founder's Curation</p>
+        <h2>The Paris Chic Edit</h2>
+        <p class="body">Our founder's seasonal selection of the most coveted French frames, carefully hand-picked from the historical ateliers of the Marais.</p>
+        <a href="#" class="btn btn--lg">Discover the Edit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Virtual try-on -->
+  <section class="tryon-sec" id="try-on">
+    <div class="wrap">
+      <div class="split-copy">
+        <p class="eyebrow">Instant Fitting Room</p>
+        <h2>See them on you before you buy</h2>
+        <p class="body">Use our advanced virtual try-on to find your perfect frame shape from anywhere in Dubai, Abu Dhabi, or Riyadh.</p>
+        <a href="#" class="btn btn--lg"><span class="d-only">Try it on</span><span class="m-only">Try virtual fitting room</span></a>
+      </div>
+      <div class="mock">
+        <div class="phone"><img src="assets/images/virtual-try-on.jpg" alt="Virtual try-on preview on a phone"></div>
+        <div class="frame-ctl">
+          <p class="lbl">Selected Frame</p>
+          <p class="nm">Lesca 711 XL</p>
+          <img class="picker" src="assets/icons/color-picker.svg" alt="Colour options: black, brown, honey">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Boutique -->
+  <section class="split" id="boutique">
+    <div class="wrap">
+      <img class="split-img" src="assets/images/boutique-dubai-festival-city.jpg" alt="Paris Chic boutique at Dubai Festival City Mall">
+      <div class="split-copy">
+        <p class="eyebrow">Visit Our Dubai Location</p>
+        <h2>Try before you buy at Dubai Festival City Mall</h2>
+        <div class="hours"><b>Opening Hours:</b><span>Mon–Sat 10AM–10PM  ·  Sun 12PM–8PM</span></div>
+        <div class="actions">
+          <a href="#" class="btn">Book a Fitting</a>
+          <a href="https://www.google.com/maps/search/Dubai+Festival+City+Mall" target="_blank" rel="noopener" class="btn btn--ghost">Get Directions</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust bar -->
+  <section class="trust" aria-label="Why shop with us">
+    <div class="wrap">
+      <div class="t-item"><div class="t-ic"><img src="assets/icons/award.svg" alt=""></div><div class="t-txt"><b>100% Authentic</b><span class="d-only">Sourced directly from France</span><span class="m-only">Direct from France</span></div></div>
+      <div class="t-item"><div class="t-ic"><img src="assets/icons/shield.svg" alt=""></div><div class="t-txt"><b>1-Year Warranty</b><span class="d-only">Comprehensive guarantees</span><span class="m-only">Full guarantees</span></div></div>
+      <div class="t-item"><div class="t-ic"><img src="assets/icons/credit-card.svg" alt=""></div><div class="t-txt"><b>Tabby &amp; Tamara</b><span>Split payment in 4</span></div></div>
+      <div class="t-item"><div class="t-ic"><img src="assets/icons/truck.svg" alt=""></div><div class="t-txt"><b><span class="d-only">Free Pickup in Dubai</span><span class="m-only">Free Dubai Pickup</span></b><span>Ready in 2 hours</span></div></div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="reviews">
+    <div class="wrap">
+      <div class="rv-sum">
+        <p class="eyebrow">Client Feedback</p>
+        <h2>Perfect Fitting</h2>
+        <div class="stars" aria-label="4.8 out of 5"><img src="assets/icons/star-16.svg" alt=""><img src="assets/icons/star-16.svg" alt=""><img src="assets/icons/star-16.svg" alt=""><img src="assets/icons/star-16.svg" alt=""><img src="assets/icons/star-16.svg" alt=""></div>
+        <p><span class="d-only">4.8 stars based on 200+ reviews across UAE &amp; Saudi Arabia.</span><span class="m-only">4.8 stars based on 200+ reviews across UAE &amp; KSA.</span></p>
+      </div>
+      <div class="rv-cards">
+        <article class="rv"><div class="stars" aria-label="5 stars"><img src="assets/icons/star-12.svg" alt=""><img src="assets/icons/star-12.svg" alt=""><img src="assets/icons/star-12.svg" alt=""><img src="assets/icons/star-12.svg" alt=""><img src="assets/icons/star-12.svg" alt=""></div><q>The quality of these frames is exceptional, exactly what I wanted. Handcrafted quality that stands out.</q><div class="rv-meta"><b>Sarah K.</b><span>Verified Purchase — Lesca 711 XL</span></div></article>
+        <article class="rv"><div class="stars" aria-label="5 stars"><img src="assets/icons/star-12.svg" alt=""><img src="assets/icons/star-12.svg" alt=""><img src="assets/icons/star-12.svg" alt=""><img src="assets/icons/star-12.svg" alt=""><img src="assets/icons/star-12.svg" alt=""></div><q>Perfect fit for wider face shapes, and the virtual try-on software was shockingly spot on. Great service.</q><div class="rv-meta"><b>Ahmed R.</b><span>Verified Purchase — IZIPIZI Sun #D</span></div></article>
+        <article class="rv"><div class="stars" aria-label="5 stars"><img src="assets/icons/star-12.svg" alt=""><img src="assets/icons/star-12.svg" alt=""><img src="assets/icons/star-12.svg" alt=""><img src="assets/icons/star-12.svg" alt=""><img src="assets/icons/star-12.svg" alt=""></div><q>Beautiful frames, exceptionally fast delivery to Abu Dhabi. Packaged gorgeously.</q><div class="rv-meta"><b>Maria L.</b><span>Verified Purchase — Anne et Valentin Alma</span></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- UGC -->
+  <section class="ugc">
+    <div class="wrap">
+      <div class="ugc-head"><p class="eyebrow">Worn by our customers</p><a href="#">#ParisChicDubai</a></div>
+      <div class="ugc-row">
+        <a href="#" class="ugc-it" aria-label="Play customer video"><img src="assets/images/ugc/ugc-1.jpg" alt=""><span class="play"><img src="assets/icons/play.svg" alt=""></span></a>
+        <a href="#" class="ugc-it" aria-label="Customer photo"><img src="assets/images/ugc/ugc-2.jpg" alt=""></a>
+        <a href="#" class="ugc-it" aria-label="Play customer video"><img src="assets/images/ugc/ugc-3.jpg" alt=""><span class="play"><img src="assets/icons/play.svg" alt=""></span></a>
+        <a href="#" class="ugc-it" aria-label="Customer photo"><img src="assets/images/ugc/ugc-4.jpg" alt=""></a>
+        <a href="#" class="ugc-it" aria-label="Play customer video"><img src="assets/images/ugc/ugc-5.jpg" alt=""><span class="play"><img src="assets/icons/play.svg" alt=""></span></a>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- About view -->
+  <main class="view" id="view-about" hidden>
+    <section class="pg">
+      <div class="wrap pg-narrow">
+        <p class="eyebrow">Our House</p>
+        <h1 class="pg-title">About Paris Chic</h1>
+        <p class="pg-lede">Discover the story behind our Parisian luxury eyewear</p>
+        <figure class="kiosk"><img src="assets/images/kiosk-dubai-festival-city.jpg" alt="The Paris Chic kiosk at Dubai Festival City Mall, showing Anne et Valentin, Bali Paris, Lesca, Izipizi and Le Petit Lunetier"><figcaption>Our kiosk at Dubai Festival City Mall</figcaption></figure>
+        <div class="story">
+          <h2>Our Story</h2>
+          <p>It started with a question: Why does bold, creative eyewear feel so hard to find in the Middle East?</p>
+          <p>Paris Chic was born from that frustration, and from a genuine passion for independent design. Founded by a team with deep roots in fashion retail, business development, and optometry, we set out to bring something the region was missing: eyewear that has a soul.</p>
+          <p>We are not a department store. We are not a mass-market chain. We are curators, fans really, of the designers we represent. Every brand in our collection was chosen because it stood for something: a point of view, a heritage, a creative daring that you simply won't find anywhere else in Dubai.</p>
+          <p>We started small, a kiosk with a big vision at Dubai Festival City Mall, because we believed the idea would speak for itself. Parisian style, brought to life in the heart of the UAE.</p>
+          <p class="motto"><span>Creative.</span> <span>Independent.</span> <span>Different.</span></p>
+        </div>
+        <div class="brands-row" aria-label="Our maisons"><span>Anne et Valentin</span><span>Bali Paris</span><span>Lesca</span><span>Izipizi</span><span>Le Petit Lunetier</span></div>
+        <div class="actions"><a href="#best-sellers" class="btn">Shop the collection</a><a href="#contact" class="btn btn--ghost">Contact us</a></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Contact view -->
+  <main class="view" id="view-contact" hidden>
+    <section class="pg">
+      <div class="wrap pg-narrow">
+        <p class="eyebrow">We're here to help</p>
+        <h1 class="pg-title">Contact Us</h1>
+        <form class="cform" id="cform" novalidate>
+          <div class="field"><label for="c-name">Name</label><input id="c-name" name="name" type="text" autocomplete="name" placeholder="Your name"></div>
+          <div class="field"><label for="c-email">Email <span aria-hidden="true">*</span></label><input id="c-email" name="email" type="email" autocomplete="email" required placeholder="name@example.com"></div>
+          <div class="field full"><label for="c-phone">Phone number</label><input id="c-phone" name="phone" type="tel" autocomplete="tel" placeholder="+971"></div>
+          <div class="field full"><label for="c-comment">Comment</label><textarea id="c-comment" name="comment" rows="5" placeholder="Tell us which frame, brand or fitting you're asking about"></textarea></div>
+          <div class="full cform-foot"><button type="submit" class="btn">Send</button><p class="cform-msg" id="cformMsg" aria-live="polite"></p></div>
+        </form>
+      </div>
+    </section>
+    <section class="touch">
+      <div class="wrap touch-grid">
+        <div class="touch-info">
+          <h2>Get In Touch</h2>
+          <p class="body">If you have an issue or question that requires immediate assistance, you can reach us directly via phone or email. Our team is ready to help you find the perfect frame.</p>
+          <dl class="info">
+            <div><dt>Text</dt><dd>+971 54 310 1985 <button type="button" class="copy" data-copy="+971 54 310 1985">Copy</button></dd></div>
+            <div><dt>Email</dt><dd>support@parischic.ae <button type="button" class="copy" data-copy="support@parischic.ae">Copy</button></dd></div>
+            <div><dt>Address</dt><dd>Dubai Festival City, Dubai, United Arab Emirates</dd></div>
+            <div><dt>Opening Hours</dt><dd>Mon–Sat 9:00AM–10:00PM, Sun 10:00AM–6:00PM</dd></div>
+          </dl>
+        </div>
+        <div class="find">
+          <h2>Find Us in Dubai Festival City</h2>
+          <a class="map-card" href="https://www.google.com/maps/search/?api=1&amp;query=Dubai+Festival+City+Mall" target="_blank" rel="noopener">
+            <img src="assets/images/boutique-dubai-festival-city.jpg" alt="">
+            <span class="map-pin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.4"/></svg></span>
+            <span class="map-meta"><b>Dubai Festival City Mall</b><span>Al Rebat St, Festival City, Dubai</span><span class="map-go">Open in Google Maps →</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Signup -->
+  <section class="signup">
+    <div class="wrap">
+      <div class="signup-copy">
+        <h2>Join the Chic Club</h2>
+        <p>Be first to discover new arrivals, exclusive offers, and styling tips from Paris.</p>
+      </div>
+      <form id="signup" novalidate>
+        <input id="email" name="email" type="email" placeholder="Your email address" aria-label="Your email address" autocomplete="email">
+        <button type="submit">Join</button>
+      </form>
+      <p class="ok" id="signupMsg" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="f-grid">
+        <div class="f-col"><h3>Shop</h3><ul><li><a href="#">Sunglasses</a></li><li><a href="#">Optical</a></li><li><a href="#">All Brands</a></li><li><a href="#new-arrivals">New Arrivals</a></li></ul></div>
+        <div class="f-col"><h3>Customer Care</h3><ul><li><a href="#">Returns within 30 days</a></li><li><a href="#">Warranty &amp; Claims</a></li><li><a href="#">Size &amp; Face-Shape Guide</a></li><li class="d-only"><a href="#">Shipping &amp; Delivery</a></li></ul></div>
+        <div class="f-col boutique"><h3>Our Boutique</h3><ul><li class="hl">Dubai Festival City Mall</li><li>Mon–Sat 10AM–10PM</li><li>+971 54 310 1985</li><li>support@parischic.ae</li></ul></div>
+        <div class="f-brand">
+          <p class="wm">PARIS CHIC</p>
+          <p>Bringing Parisian creative, independent, and luxury design eyewear directly to the Arabian Gulf.</p>
+          <div class="social">
+            <a href="#" aria-label="Instagram"><img src="assets/icons/instagram.svg" alt=""></a>
+            <a href="#" aria-label="X"><img src="assets/icons/circle-x.svg" alt=""></a>
+            <a href="#" aria-label="Facebook"><img src="assets/icons/facebook.svg" alt=""></a>
+            <a href="#" aria-label="TikTok"><img src="assets/icons/circle-x.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <div class="social m-only">
+        <a href="#" aria-label="Instagram"><img src="assets/icons/instagram.svg" alt=""></a>
+        <a href="#" aria-label="X"><img src="assets/icons/circle-x.svg" alt=""></a>
+        <a href="#" aria-label="Facebook"><img src="assets/icons/facebook.svg" alt=""></a>
+      </div>
+      <div class="f-line"></div>
+      <div class="f-bottom">
+        <p>© 2026 Paris Chic. All rights reserved.</p>
+        <div class="pay"><span>visa</span><span>mastercard</span><span>apple-pay</span><span>tabby</span><span>tamara</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Coming soon overlay (covers everything below the hero on Home) -->
+  <div class="soon" id="soon" hidden>
+    <div class="soon-card" role="dialog" aria-labelledby="soonTitle">
+      <img class="soon-logo" src="assets/images/logo-paris-chic.png" alt="Paris Chic">
+      <p class="soon-kicker">The full boutique online</p>
+      <h2 class="soon-title" id="soonTitle">Coming Soon</h2>
+      <p class="soon-text">Our complete collection of independent Parisian eyewear is on its way. Until then, visit us at Dubai Festival City Mall.</p>
+      <form class="soon-form" id="soonForm" novalidate>
+        <input id="soon-email" type="email" placeholder="Your email address" aria-label="Your email address" autocomplete="email">
+        <button type="submit">Notify me</button>
+      </form>
+      <p class="soon-msg" id="soonMsg" aria-live="polite"></p>
+    </div>
+  </div>
+</div>
+
+<a href="https://wa.me/971543101985" target="_blank" rel="noopener" class="wa" aria-label="Chat on WhatsApp"><img src="assets/icons/whatsapp-message.svg" alt=""></a>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- Mobile drawer -->
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-bg" data-close></div>
+  <div class="drawer-panel" role="dialog" aria-label="Menu">
+    <div class="drawer-head"><span class="wm">PARIS CHIC</span><button class="drawer-close" data-close aria-label="Close menu">×</button></div>
+    <nav>
+      <button type="button" id="drawerSun" aria-expanded="false">Sunglasses <span>+</span></button>
+      <div class="sub" id="drawerSub" hidden>
+        <div><h4>Shop By</h4><ul><li>Women</li><li>Men</li><li>Unisex</li></ul></div>
+        <div><h4>Style</h4><ul><li>Round</li><li>Cat-eye</li><li>Aviator</li><li>Rectangle</li></ul></div>
+        <div><h4>Brands</h4><ul><li>IZIPIZI</li><li>Anne et Valentin</li><li>Lesca</li><li>Le Petit Lunetier</li><li>BALI Paris</li></ul></div>
+      </div>
+      <a href="#">Optical</a>
+      <a href="#">Brands</a>
+      <a href="#boutique" data-close>Boutique &amp; Fitting</a>
+      <a href="#about" data-close>About</a>
+      <a href="#contact" data-close>Contact</a>
+    </nav>
+    <div class="loc"><span>UAE 🇦🇪 / KSA 🇸🇦</span><span dir="auto">EN / عربي</span></div>
+  </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
