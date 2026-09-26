@@ -35,7 +35,7 @@ img{display:block;max-width:100%}
 /* ticker */
 .ticker{margin-top:-32px;background:var(--sand);border-bottom:1px solid var(--line);overflow:hidden;color:var(--navy)}
 .ticker-track{display:flex;width:max-content;animation:tick 38s linear infinite}
-.ticker:hover .ticker-track,.ticker:focus-within .ticker-track{animation-play-state:paused}
+@media (hover:hover) and (pointer:fine){.ticker:hover .ticker-track{animation-play-state:paused}}
 .ticker-group{display:flex;align-items:center;flex:none}
 .ticker-item{display:flex;align-items:center;gap:10px;padding:11px 28px;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
 .ticker-item::after{content:"";width:5px;height:5px;background:var(--navy);transform:rotate(45deg);margin-left:46px;flex:none}
@@ -43,7 +43,8 @@ img{display:block;max-width:100%}
 .ticker-item .tag{background:var(--red);color:#fff;font-size:10px;font-weight:600;padding:2px 7px;border-radius:100px;letter-spacing:.04em}
 .ticker-item a{text-decoration:underline;text-underline-offset:3px}
 @keyframes tick{to{transform:translateX(-50%)}}
-@media (prefers-reduced-motion:reduce){.ticker-track{animation:none!important}.ticker{overflow-x:auto}}
+@media (prefers-reduced-motion:reduce){.ticker-track{animation:tick 38s linear infinite!important}}
+@media (max-width:767px){.ticker-track{animation-duration:28s!important}}
 .nav{display:flex;align-items:center;justify-content:space-between;padding-block:18px;min-height:84px;position:relative}
 .nav-left{display:flex;gap:18px;align-items:center;font-size:13px;text-transform:uppercase;letter-spacing:.02em}
 .nav-left a{color:rgba(250,247,241,.68);padding-block:12px;margin-block:-12px;transition:color .2s}

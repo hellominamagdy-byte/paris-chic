@@ -76,7 +76,7 @@ In-page anchors like `#best-sellers`, `#new-arrivals`, `#try-on` and `#boutique`
 - **Mega menu** opens on hover over *Sunglasses* (also keyboard / click): Shop By, Brands, Style, plus a "New Season" editorial image.
 - Under 1024px the nav collapses into a side drawer.
 
-**Offers ticker**: continuous marquee of current offers, pauses on hover, static when the user prefers reduced motion.
+**Offers ticker**: continuous marquee of current offers. Pauses on mouse hover (desktop only); always scrolls on mobile.
 
 **Hero slider**: 3 slides (New Season · Sunglasses · Boutique), arrows, dots, autoplay every 6s (pauses on hover), swipe on touch, arrow keys. Dark gradient behind the copy on every slide.
 
@@ -151,6 +151,9 @@ var COMING_SOON=true;   // set to false to show the full homepage
 ---
 
 ## Changelog
+
+### v1.0.3 — 2026-09-26
+- Offers ticker now scrolls on mobile: it no longer freezes after a tap (hover-pause is desktop-only) or when the phone has Reduce Motion on. Slightly faster on mobile (28s loop).
 
 ### v1.0.2 — 2026-09-26
 - Mobile header now uses the full Paris Chic logo image (centred, 46px) instead of the icon + text wordmark.
