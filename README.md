@@ -146,10 +146,14 @@ var COMING_SOON=true;   // set to false to show the full homepage
 - [ ] Kiosk photo on About is cropped from a screenshot (720px wide). Replace with the original.
 - [ ] Nav links Optical, Brands, category tiles and footer links don't go anywhere yet.
 - [ ] Social links (Instagram, X, Facebook) need real URLs.
+- [ ] Keep client files out of the repo: `files/` and `files.zip` (proposal PDFs) are listed in `.gitignore`. Don't drag them into GitHub's web uploader.
 
 ---
 
 ## Changelog
+
+### v1.0.2 — 2026-09-26
+- Mobile header now uses the full Paris Chic logo image (centred, 46px) instead of the icon + text wordmark.
 
 ### v1.0.1 — 2026-09-26
 - Published to GitHub (`hellominamagdy-byte/paris-chic`) and deployed on GitHub Pages.
