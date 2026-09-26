@@ -3,7 +3,9 @@
 Responsive homepage for **Paris Chic**, a Dubai boutique for independent Parisian eyewear (Anne et Valentin, Bali Paris, Lesca, IZIPIZI, Le Petit Lunetier). Built as plain HTML, CSS and JavaScript from the Figma design. No framework and no build step needed to run it.
 
 - **Figma source:** [Paris Chic file](https://www.figma.com/design/3WwaOyPNWekdXUMuFkonxd/Untitled?node-id=0-1)
-- **Live preview (private Claude artifact):** https://claude.ai/artifact/7XnANXrKA8mX6mexZUdDdh
+- **Live site (GitHub Pages):** https://hellominamagdy-byte.github.io/paris-chic/
+- **Repository:** https://github.com/hellominamagdy-byte/paris-chic
+- **Preview (private Claude artifact):** https://claude.ai/artifact/7XnANXrKA8mX6mexZUdDdh
 - **Current status:** Client preview. Everything below the hero is blurred behind a "Coming Soon" popup.
 
 ---
@@ -148,6 +150,10 @@ var COMING_SOON=true;   // set to false to show the full homepage
 ---
 
 ## Changelog
+
+### v1.0.1 — 2026-09-26
+- Published to GitHub (`hellominamagdy-byte/paris-chic`) and deployed on GitHub Pages.
+- Added live site and repository links to this README.
 
 ### v1.0 — 2026-09-26
 - Built the homepage from Figma (desktop + mobile, responsive).
